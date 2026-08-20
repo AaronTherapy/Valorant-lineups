@@ -53,6 +53,28 @@ h1 {
     margin-bottom: 20px;
 }
 
+.role-select {
+    display: flex;
+    gap: 10px;
+}
+
+.role-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff4655;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid #ff4655;
+    border-radius: 4px;
+}
+
+.role-btn:hover {
+    background-color: #d93645;
+}
+
 .lineup img {
     max-width: 900px;
     width: 100%;
